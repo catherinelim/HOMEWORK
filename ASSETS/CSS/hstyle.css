@@ -1,8 +1,9 @@
-Body{
+body{
   width:960px;
-  margin: 100px 200px 100px 200px;
+  margin-right: 200px;
+  margin-left: 200px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-image: url(/HOMEWORK/ASSETS/IMAGES/hotel-wallpaper.png);
+  background-image: url(/ASSETS/IMAGES/hotel-wallpaper.png);
 }
 
 div.topnav {
@@ -15,7 +16,7 @@ div.topnav {
   border-width:2px;
 }
 
-div.topnav h1 {
+div.topnav: h1{
 	float: left;
   background-color: teal;
   color: white;
@@ -27,7 +28,8 @@ div.topnav h1 {
 
 div.topnav :active {
   float: right;
-  color: lightgray;
+  background-color: white;
+  color: gray;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -39,12 +41,6 @@ div.topnav :active {
   color: black;
 }
 
-.topnav a.active {
-  background-color:white;
-  color:darkgray;
-  padding: 20px;
-  text-decoration: none;
-}
 
 hr { 
   display: block;
@@ -55,31 +51,42 @@ hr {
   margin-right: auto;
   border-style: inset;
   border-width: 2px;
+}
 
-div class.content {
+div.content : {
   background-color:ffffff;
   color: #777777;
-  border-block-color: black;
+  border-color: black;
   margin-left: 200px;
   margin-right: 200px;
-  padding-block: 10px;
+  padding : 20px;
 }
 
 h2 {
-  font-family: Georgia, 'Times New Roman', Times, serif
-  Background-color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:white;
   color:teal;
   font-size: 20px;
 }
 
-container.button {
+div.container: form {
+  width:960px;
+  background-color: white;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 10px;
+}
+
+div.container: button  {
   background-color:teal;
   color: #777777;
   padding: 12px 20px;
   border: none;
   font-size: 20px;
   border-radius: 4px;
-
+}
 
 h3 {
   font-family: Georgia, 'Times New Roman', Times, serif
