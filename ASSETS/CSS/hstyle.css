@@ -1,0 +1,122 @@
+Body{
+  width:960px;
+  margin: 100px 200px 100px 200px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url(../images/hotel-wallpaper.png);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  margin-top:1em;
+  margin-bottom: 1em;
+  margin-right: auto;
+  margin-left:auto;
+  border-width:2px;
+}
+
+.topnav a {
+  float: right;
+  color: lightgray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav h1 {
+	float: left;
+    background-color: teal;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:white;
+  color:darkgray;
+  padding: 20px;
+  text-decoration: none;
+}
+
+hr { 
+
+  display: block;
+  width:960px;
+  margin-top: 2.5em;
+  margin-bottom: 1.0em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+
+div class.content {
+  background-color:ffffff;
+  color: #777777;
+  border-block-color: black;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-block: 10px;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif
+  Background-color:white;
+  color:teal;
+  font-size: 20px;
+}
+
+container.button {
+  background-color:teal;
+  color: #777777;
+  padding: 12px 20px;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+
+
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif
+  background-color:white;
+  color: teal;
+  font-size: 20px;
+}
+
+div.portfolio {
+  display: grid;
+  margin: 5px;
+  border: 1pxborder;
+  display: ;
+  width: 180px;
+}
+
+div.description:hover {
+  border: 1px solid #777;
+}
+
+div.portfolio img {
+  width: 100%;
+  transition:1s;
+  height: auto;
+}
+
+div.description {
+  position: relative;
+  width: 230px;
+  padding: 10px;
+  bottom:10px;
+  background-color:teal;
+  color:white;
+  text-align: center;
+}
+
+
+
+

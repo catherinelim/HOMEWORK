@@ -4,35 +4,52 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" type="text/css" href="homework/hstyle.css"></link>
+    <link rel="stylesheet" type="text/css" href="/Users/catherinelim/HOMEWORK/ASSETS/CSS/hstyle.css"></link>
 
+    <style>
+        .footer {
+            position:fixed;
+            left:0;
+            bottom:0;
+            width:960px;
+            margin-left: 200px;
+            margin-right:200px;
+            background-color:gray;
+            color: white;
+            text-align:center;}
+            }
+    </style>
+  
 <title>CATHERINE LIM</title>
 
 <header>
-    <div class="container">
-        <a class="name">Catherine Lim</a>
-        <a class="active" href="index.html">About</a>
-        <a class="active" href="portfolio.html">Portfolio</a>
-        <a class="active" href="contact.html">Contact</a>
-        </ul>
+    <div class="topnav">
+        <h1> Catherine Lim</h1>
+            <a class="active" href="contact.html">Contact </a>
+            <a class="active" href="portfolio.html">Portfolio</a>      
+            <a class="active" href="index.html">About</a>
     </div>
 </header>
 
+<hr>
 <section class="contact">
-    <section class="box"></section>
-        <form action="Contact"></form>
-               Name :<br>
-            <input type="textarea"><br>
-                Email:<br>
-            <input type="textarea"><br>
-                Message:<br>
-            <input type="textarea" size="500"><br>
-                <button type="Submit">Submit</button><br>
-        </form>
+    <h2>Contact</h2>
+    <div class="container">
+            <form action="action">
+              <label for="Name">Name</label>
+              <textarea id="Name" name="name" rows="2" cols="160"></textarea><br>
+              <label for="Email">Email</label>
+              <textarea id="Name" name="name" rows="2" cols="160"></textarea><br>
+              <label for="Message">Message</label><br>
+              <textarea id="subject" name="subject" rows="10" cols="160"></textarea>
+              <button type="button">Submit</button>
+            </form>
     </div>
 </section>
 </body>
 
-<footer class="footer">copyright</footer>
+<div class="footer">
+    <p>Copyright</p>
+</div>
 
 </html>
