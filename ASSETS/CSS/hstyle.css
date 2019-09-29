@@ -14,15 +14,15 @@ div.topnav {
   margin-left:auto;
   border-width:2px;
 }
-topnav h1 {
 
-	  float: left;
-    background-color: teal;
-  	color: white;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
-  	font-size: 20px;
+div.topnav h1 {
+	float: left;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 div.topnav :active {
@@ -33,7 +33,6 @@ div.topnav :active {
   text-decoration: none;
   font-size: 14px;
 }
-
 
 .topnav a:hover {
   background-color: #ddd;
@@ -48,7 +47,6 @@ div.topnav :active {
 }
 
 hr { 
-
   display: block;
   width:960px;
   margin-top: 2.5em;
