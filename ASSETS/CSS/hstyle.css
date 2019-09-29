@@ -2,10 +2,10 @@ Body{
   width:960px;
   margin: 100px 200px 100px 200px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-image: url(../images/hotel-wallpaper.png);
+  background-image: url(/HOMEWORK/ASSETS/IMAGES/hotel-wallpaper.png);
 }
 
-.topnav {
+div.topnav {
   overflow: hidden;
   background-color: white;
   margin-top:1em;
@@ -14,8 +14,18 @@ Body{
   margin-left:auto;
   border-width:2px;
 }
+topnav h1 {
 
-.topnav a {
+	  float: left;
+    background-color: teal;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 20px;
+}
+
+div.topnav :active {
   float: right;
   color: lightgray;
   text-align: center;
@@ -24,15 +34,6 @@ Body{
   font-size: 14px;
 }
 
-.topnav h1 {
-	float: left;
-    background-color: teal;
-  	color: white;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
-  	font-size: 20px;
-}
 
 .topnav a:hover {
   background-color: #ddd;
